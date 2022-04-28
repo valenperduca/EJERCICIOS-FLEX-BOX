@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+
+html { 
+font-size: 16px;
+font-family: "Poppins"; 
+
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+
+
+
+body {
+    background-color: white;
+} 
+
+
+.contenedor {
+    width:80%;
+    margin: auto;
+
+}
+
+
+
+.flex-contenedor {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+} 
+
+
+.item {
+    align-self: auto;
+    align-self: center;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.foto_1 {
+    width: 25%;
+    
+}
